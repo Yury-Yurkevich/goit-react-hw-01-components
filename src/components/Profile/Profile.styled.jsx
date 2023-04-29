@@ -21,15 +21,16 @@ export const Avatar = styled.img`
 `;
 
 export const UserName = styled.p`
-  font-size: 20px;
+  font-size: 24px;
   font-weight: 700;
-  margin-bottom: 10px;
+  margin-bottom: 16px;
 `;
 
 const stylesForTagLocation = {
-  'font-size': '14px',
-  color: 'gray',
   'margin-bottom': '10px',
+  'font-size': '16px',
+  color: 'gray',
+
 };
 
 export const UserTag = styled.p(stylesForTagLocation);
@@ -42,7 +43,7 @@ export const Stats = styled.ul`
   width: 100%;
   text-align: center;
   margin: 0 auto;
-  background-color: #c4ced8;
+  background-color: #d8d8e0;
 `;
 
 export const StatsItem = styled.li`
