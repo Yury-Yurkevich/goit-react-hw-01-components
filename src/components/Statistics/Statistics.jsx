@@ -27,6 +27,14 @@ export const Statistics = ({ title, stats }) => {
   );
 };
 
+
+
+function getRandomHexColor() {
+  return `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+}
+
+
+
 Statistics.propTypes = {
   title: PropTypes.string,
   stats: PropTypes.arrayOf(
@@ -37,7 +45,3 @@ Statistics.propTypes = {
     })
   ),
 };
-
-function getRandomHexColor() {
-  return `#${Math.floor(Math.random() * 16777215).toString(16)}`;
-}

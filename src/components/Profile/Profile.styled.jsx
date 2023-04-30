@@ -56,11 +56,12 @@ export const StatsItem = styled.li`
 export const Label = styled.span`
   display: block;
   color: gray;
-  font-size: 12px;
+  font-size: 14px;
   margin-bottom: 5px;
 `;
 
 export const Quantity = styled.span`
   display: block;
-  font-weight: 500;
+  font-weight: 800;
+  font-size: 16px;
 `;

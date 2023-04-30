@@ -5,7 +5,7 @@ export const FriendItem = styled.li`
   justify-content: start;
   align-items: center;
   margin-bottom: 10px;
-  padding: 20px;
+  padding: 10px 0;
   background-color: #ffffff;
 `;
 
@@ -14,8 +14,8 @@ const getBackgroundColor = ({ isOnline }) => {
 };
 
 export const Status = styled.span`
-  width: 12px;
-  height: 12px;
+  width: 14px;
+  height: 14px;
   margin-left: 10px;
   margin-right: 10px;
   border-radius: 50%;
