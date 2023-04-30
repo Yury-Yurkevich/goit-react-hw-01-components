@@ -11,7 +11,7 @@ export const FriendListItem = ({ avatar, name, isOnline, id }) => {
   );
 };
 
-// FriendList.jsx (проп friends)
+// Типи пропів явно описані в компоненті FriendList.jsx (проп friends)
 // FriendListItem.propTypes = {
 //   avatar: PropTypes.string.isRequired,
 //   name: PropTypes.string.isRequired,

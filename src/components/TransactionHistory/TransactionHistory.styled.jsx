@@ -8,17 +8,17 @@ export const Table = styled.table`
 `;
 
 export const TableHeader = styled.th`
+  background-color: #09e6e6;
   width: 200px;
   color: #ffffff;
   padding-top: 10px;
   padding-bottom: 10px;
   text-transform: uppercase;
-  background-color: #8095db;
 `;
 
 const getRowBackgroundColor = ({ rowNumber }) => {
   if (rowNumber % 2 === 0) {
-    return '#d8d8e0';
+    return '#efebebea';
   }
   return '#ffffff';
 };

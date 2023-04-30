@@ -43,7 +43,7 @@ export const Stats = styled.ul`
   width: 100%;
   text-align: center;
   margin: 0 auto;
-  background-color: #d8d8e0;
+  background-color: #efebebea;
 `;
 
 export const StatsItem = styled.li`
